@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-04-2015, 23:52:55
+    Author     : bjarkenielsen
+*/
+
+#linky {
+    width: 651px;
+} 
+
+#linky .boxy {
+    float:left;
+    border: 1px solid #999999;    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    background: #fbfbfd;
+    width: 192px;
+    padding: 10px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+//support for floating-images
+.floating-image-wrapper::before{
+    clear:both;
+}
+
+.floating-image-wrapper{
+    //margin-left: 8.5%;
+    //border: solid 1px #2c807f;
+    width: 100%;
+    display: inline-block;
+    padding-left: 23px;
+    height: auto;
+    //overflow: hidden;
+}
+
+.image-box{
+    width: auto;
+    margin-right: 8px;
+    margin-bottom:8px;
+    position: relative;
+    float: left;   
+    border: 1px solid #2c807f;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+    padding: 12px 14px 6px 15px;  
+    background: #ffffff;
+    -webkit-box-shadow: rgba(50, 50, 50, 1.5) 0px 3px 15px -3px;
+    -moz-box-shadow: rgba(50, 50, 50, 1.5) 0px 3px 15px -3px;
+    box-shadow: rgba(50, 50, 50, 1.5) 0px 3px 15px -3px;
+    height:auto;
+    overflow: hidden;
+}
+
+div.image-box img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    -webkit-transition: opacity 0.3s linear;
+}
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
