@@ -6,7 +6,7 @@
   Version: 0.1
   Author: Bjarke Nielsen
   Author URI: http://pams.dk
-  License: Single user
+  License: GPL
  */
 
 // Make sure we don't expose any info if called directly
