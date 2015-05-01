@@ -3,7 +3,7 @@
   Plugin Name: pams-lypdos
   Plugin URI: http://pams.dk
   Description: Lightweight, yet powerful documentation system
-  Version: 0.3
+  Version: 0.4
   Author: Bjarke Nielsen
   Author URI: http://pams.dk
   License: GPL
