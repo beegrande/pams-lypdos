@@ -114,6 +114,15 @@ if(function_exists("register_field_group"))
 					'group_no' => 2,
 				),
 			),
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'risk_doc',
+					'order_no' => 0,
+					'group_no' => 3,
+				),
+			),
 		),
 		'options' => array (
 			'position' => 'acf_after_title',
@@ -167,7 +176,16 @@ if(function_exists("register_field_group"))
 					'group_no' => 2,
 				),
 			),
-		),
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'risk_doc',
+					'order_no' => 0,
+					'group_no' => 3,
+				),
+			),
+                    ),
 		'options' => array (
 			'position' => 'normal',
 			'layout' => 'no_box',
@@ -355,7 +373,15 @@ if(function_exists("register_field_group"))
 					'group_no' => 3,
 				),
 			),
-		),
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'risk_doc',
+					'order_no' => 0,
+					'group_no' => 4,
+				),
+			),		),
 		'options' => array (
 			'position' => 'acf_after_title',
 			'layout' => 'no_box',
